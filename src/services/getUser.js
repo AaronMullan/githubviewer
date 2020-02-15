@@ -8,4 +8,4 @@ const request = path => {
     });
 };
 
-export const getRepos = user => request(`${user}`);
+export const getUser = user => request(`${user}`);
